@@ -20,10 +20,10 @@ MonoBehaviour:
     label: Walk to
     lineID: -1
   addHotspotPrefix: 0
-  allowInteractionCursor: 0
+  allowInteractionCursor: 1
   allowInteractionCursorForInventory: 0
   cycleCursors: 0
-  leftClickExamine: 0
+  leftClickExamine: 1
   onlyWalkWhenOverNavMesh: 0
   onlyShowInventoryLabelOverHotspots: 0
   inventoryCursorSize: .0599999987
@@ -120,7 +120,10 @@ MonoBehaviour:
     label: Look at
     lineID: 65
     id: 2
-  unhandledCursorInteractions: []
-  lookUseCursorAction: 0
-  lookCursor_ID: 0
-  lookCursor_int: 0
+  unhandledCursorInteractions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lookUseCursorAction: 1
+  lookCursor_ID: 2
+  lookCursor_int: 2

@@ -20,7 +20,7 @@ MonoBehaviour:
   searchAudioFiles: 1
   forceSubtitles: 1
   translateAudio: 1
-  scrollSubtitles: 1
+  scrollSubtitles: 0
   endScrollBeforeSkip: 0
   keepTextInBuffer: 0
   placeAudioInSubfolders: 0

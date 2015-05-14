@@ -11,9 +11,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a2543a119f842959d20e84db3140dd, type: 3}
   m_Name: Ekster_InventoryManager
   m_EditorClassIdentifier: 
-  items: []
+  items:
+  - count: 1
+    tex: {fileID: 2800000, guid: dc008b16a8cbf4215a275efe13cba3e5, type: 3}
+    activeTex: {fileID: 0}
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartID: 0
+    canCarryMultiple: 0
+    useSeparateSlots: 0
+    label: Worm
+    altLabel: 
+    id: 0
+    lineID: -1
+    useIconID: 0
+    binID: -1
+    isEditing: 1
+    recipeSlot: -1
+    lastInteractionIndex: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 11400000, guid: 699e05b968ec2424195b8494c908ed13, type: 2}
+    interactions: []
+    combineActionList: []
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    combineID: 
   bins: []
   unhandledCombine: {fileID: 0}
-  unhandledHotspot: {fileID: 0}
+  unhandledHotspot: {fileID: 11400000, guid: 55e5b5f6f4e7e4acda8a948c85a0b7cb, type: 2}
   unhandledGive: {fileID: 0}
   recipes: []

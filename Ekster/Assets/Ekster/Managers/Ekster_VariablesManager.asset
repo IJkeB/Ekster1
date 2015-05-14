@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: Ekster_VariablesManager
   m_EditorClassIdentifier: 
   vars: []
-  updateRuntime: 0
+  updateRuntime: 1
